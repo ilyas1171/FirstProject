@@ -1,0 +1,32 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <img src="{{navbar.image}}" alt="logo"
+      style="width: 40px; padding: 5px;">
+    <a class="navbar-brand">{{navbar.title}}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto d-flex flex-row">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/home"><i class="fa-solid fa-house"></i> {{navbar.navbarFirstTool}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="leaveRequest"><i class="fa-solid fa-hand-holding-medical"></i> {{navbar.navbarSecondTool}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="pay"><i class="fa-solid fa-coins"></i> {{navbar.navbarThirdTool}}</a>
+        </li>
+        <li class="nav-item">
+
+          <a class="nav-link" routerLink="profile"><i class="fa-solid fa-user"></i> {{navbar.navbarFourthTool}} </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " (click)="logout()" routerLink=""><i class="fa-solid fa-right-from-bracket"></i> {{navbar.navbarFifthTool}}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

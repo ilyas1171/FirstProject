@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="container">
+        <div class="row justify-content-center align-items-center g-2">
+            <div class="col">
+                <img src="https://empxtrack.com/wp-content/uploads/2021/04/payroll-in-three-easy-steps.png" class="img-fluid rounded-top" alt="">
+            </div>
+            <div class="col">
+                <form  [formGroup]="employee" (ngSubmit)="save()">
+                <div class="container box">
+                    <div class="text-center">
+                        <h3>Add Employee</h3>
+                    </div>
+                    <div class="mb-3">
+                      <label for="" class="form-label">{{profile.name}}</label>
+                      <input type="text"
+                        class="form-control" name="" id="" aria-describedby="helpId" placeholder="Name" formControlName="userName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="form-label">{{profile.email}}</label>
+                        <input type="text"
+                          class="form-control" name="" id="" aria-describedby="helpId" placeholder="Email" formControlName="userEmail">
+                      </div>
+                      <div class="mb-3">
+                        <label for="" class="form-label">{{profile.dob}}</label>
+                        <input type="date"
+                          class="form-control" name="" id="" aria-describedby="helpId" placeholder="DOB" formControlName="userDob">
+                      </div>
+                      <div class="mb-3">
+                        <label for="" class="form-label">{{profile.team}}</label>
+                        <input type="text"
+                          class="form-control" name="" id="" aria-describedby="helpId" placeholder="Team" formControlName="team">
+                      </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">{{profile.button}}</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>

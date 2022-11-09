@@ -1,0 +1,43 @@
+<h3 style="font-family: cursive;">{{profile.profileHeading}}</h3>
+<br>
+<div class="container">
+  <div class="card mb-3 box">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <div class="container">
+          <img src="{{profile.profileImage}}"
+            class="img-fluid rounded-start" alt="...">
+        </div>
+      </div>
+      <div class="col">
+        <div class="container">
+          <ul class="list-group list-group-flush">
+            <br>
+            <li class="list-group-item">
+              <pre>{{profile.employeeId}}   :  {{userDetails.userId}}</pre>
+            </li>
+            <br>
+            <li class="list-group-item">
+              <pre>{{profile.name}}             :  {{userDetails.userName}}</pre>
+            </li>
+            <br>
+            <li class="list-group-item">
+              <pre>{{profile.dob}}              :  {{userDetails.userDob }}</pre>
+            </li>
+            <br>
+            <li class="list-group-item">
+              <pre>{{profile.email}}           :  {{userDetails.userEmail}}</pre>
+            </li>
+            <br>
+            <li class="list-group-item">
+              <pre>{{profile.role}}              :  {{userDetails.userRole}}</pre>
+            </li>
+            <br>
+            <li class="list-group-item"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>

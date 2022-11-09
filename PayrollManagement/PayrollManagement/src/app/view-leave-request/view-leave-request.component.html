@@ -1,0 +1,15 @@
+<h2>Leave Request</h2>
+<br>
+<div class="container box">
+    <div class="cointainer-fluid">
+        <pre>{{leaveRequest.fromDate}}                 :</pre>
+        <pre>{{leaveRequest.toDate}}                   :</pre>
+        <pre>{{leaveRequest.labelHeading}}            :</pre>
+        <pre>{{leaveRequest.leaveTitle}}              :</pre>
+        <pre>{{leaveRequest.discriptionTitle}}      :</pre>
+        <div>
+        <button type="button" class="btn btn-success" (click)="approve()">{{leaveRequest.firstButton}}</button>
+       <button type="button" class="btn btn-danger" (click)="reject()">{{leaveRequest.secondButton}}</button>
+        </div>
+    </div>
+</div>

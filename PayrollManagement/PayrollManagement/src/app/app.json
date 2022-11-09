@@ -1,0 +1,122 @@
+{
+    "feature":[
+        {
+            "imageUrl": "https://cdn.pixabay.com/photo/2017/03/27/21/31/money-2180330__480.jpg",
+            "cardTitle": "Embrace diverse salary structures",
+            "cardText": "Create multiple pay slabs for your staff, leads, and managers and associate the right template with each employee."
+        },
+        {
+            "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/money-saving-tips-1622109964.jpg",
+            "cardTitle": "Automatic payroll calculation",
+            "cardText": "Run payroll in a few clicks and automatically generate pay-slips online with a thorough breakdown of taxes, allowances, and deductions."
+        },
+        {
+            "imageUrl": "https://www.pngitem.com/pimgs/m/3-32300_payroll-management-payroll-png-transparent-png.png",
+            "cardTitle": "Pay employees on time every time",
+            "cardText": "Transfer employees' salaries directly to their bank accounts with timely online transfers and readily available bank advice."
+        },
+        {
+            "imageUrl": "https://www.datocms-assets.com/40521/1614082064-payroll-1.png",
+            "cardTitle": "Straight-forward statutory compliance",
+            "cardText": "Steer your business clear of compliance penalties. We handle your statutory compliance including (PF,PT,ESI,LWF and IT) and make filing easy with tax reports."
+        },
+        {
+            "imageUrl": "https://efacility.r.worldssl.net/wp-content/uploads/2020/09/Payroll-Banner.png",
+            "cardTitle": "Encourage employee self-service",
+            "cardText": " Enable seamless collaboration between employees and your payroll staff and reduce the burden of employee requests."
+        },
+        {
+            "imageUrl": "https://www.feedough.com/wp-content/uploads/2019/11/PAYROLL.png",
+            "cardTitle": "Fine-grain admin privileges",
+            "cardText": "Invite your qualified staff to process payroll but maintain control with user roles and role-based access."
+        }
+    ],
+    "about":{
+        "image":"https://img.freepik.com/free-vector/remittance-money-forward-cash-overseas-direct-funding-give-allowance-spare-sum-getting-payroll-transferring-forex-money-drop-coin-isolated-concept-metaphor-illustration_335657-1214.jpg?w=2000",
+        "title":"About",
+        "content":"Payroll is the compensation a business must pay to its employees for a set period or on a given date. It is usually managed by the accounting or human resources department of a company. Small-business payrolls may be handled directly by the owner or an associate. Increasingly, payroll is outsourced to specialized firms that handle paycheck processing, employee benefits, insurance, and accounting tasks, such as tax withholding. Many payroll fintech firms, such as Atomic, Bitwage, Finch, Pinwheel, and Wagestream, are leveraging technology to simplify payroll processes. These solutions pay employees with greater convenience and speed and provide digital payroll-related documents with innovative technology-enabled services required by the gig and outsourcing economy. Payroll can also refer to the list of a company's employees and the amount of compensation due to each of them. Payroll is a major expense for most businesses and is almost always deductible, meaning the expense can be deducted from gross income lowering the company's taxable income. Payroll can differ from one pay period to another because of overtime, sick pay, and other variables."
+    },
+    "carosal":[
+        "https://greenskiesanalytics.com/wp-content/uploads/2021/06/payroll-1000x600-1.jpg",
+        "https://s3.us-east-1.amazonaws.com/co-assets/assets/images/_fbTw/payroll.jpg",
+        "https://www.ontariobusinesscentral.ca/blog/wp-content/uploads/2016/01/iStock-1196775557.jpg"
+    ],
+    "footer":{
+        "developer":"dhivya.senthil@aspiresys.com",
+        "copyright":" © 2022 Copyright:"
+    },
+    "navbar":{
+        "title":"PayRoll",
+        "image":"https://uxwing.com/wp-content/themes/uxwing/download/banking-finance/hand-money-icon.png",
+        "navbarFirstTool":"Home",
+        "navbarSecondTool":"Leave Request",
+        "navbarThirdTool":"PaySlip",
+        "navbarFourthTool":"Profile",
+        "navbarFifthTool":"Logout",
+        "navbarSixthTool":"Management",
+        "firstOption":"Add Employee",
+        "secondOption":"View Employee List",
+        "thirdOption":"Search & Delete"
+    },
+    "leaveRequest":{
+        "fromDate": "From Date",
+        "toDate": "To Date",
+        "labelHeading":"Request Type  ",
+        "displayOnLabel":"-Select Request Type-",
+        "firstOption":"Pre_Request",
+        "secondOption":"Post_Request",
+        "leaveTitle":"Leave Type  ",
+        "displayOnLeaveLabel":"-Select Leave Type-",
+        "leaveFirstOption":"Sick leave",
+        "leaveSecondOption":"Privilege leave",
+        "leaveThirdOption":"Casual leave",
+        "leaveFourthOption":"Maternity leave",
+        "leaveFifthOption":"Paternity leave",
+        "leaveSixthOption":"Compensatory leave",
+        "leaveSevenOption":"Others",
+        "discriptionTitle":"Request Description:",
+        "buttonName":"Sent Request",
+        "firstButton":"Approve",
+        "secondButton":"Reject"
+    },
+    "loginPage":{
+        "title":"PayRoll",
+        "subTitle":"System",
+        "about":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, itaque accusantium odio, soluta, corrupti aliquam quibusdam tempora at cupiditate quis eum maiores liberoveritatis? Dicta facilis sint aliquid ipsum atque?",
+        "loginTitle":"Login",
+        "userName":"User Name",
+        "password":"Password",
+        "button":"Log in"
+    },
+    "profile":{
+        "profileImage":"https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png",
+        "profileHeading":"Profile",
+        "profileTitle":"Search",
+        "heading":"Employee List",
+        "employeeId":"Employee Id",
+        "name":"Name",
+        "dob":"DOB",
+        "email":"E-mail",
+        "role":"Role",
+        "team":"Team",
+        "button":"save"
+    },
+    "PaySlip":{
+        "heading":"PaySlip",
+        "month":"Month",
+        "grossPay":"Gross Pay",
+        "deductions":"Deductions",
+        "netPay":"Net Pay",
+        "earnings":"Earnings",
+        "basicPay":"Basic Pay",    
+        "HRA":"House Rent Allowance",
+        "LTA":"LTA Monthly",
+        "supplementaryAllowance":"Supplementary Allowance",
+        "insurance":"Medical Insurance",
+        "PF":"Provident Fund",
+        "team":"Team",
+        "select":"select",
+        "firstTeam":"Java",
+        "button":"save"
+    }
+}

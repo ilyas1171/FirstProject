@@ -1,0 +1,91 @@
+<br>
+<div class="container-fluid">
+    <h1>{{payslip.heading}}</h1>
+    <!--  -->
+    <div class="container box">
+        <div class="container-fluid">
+            <br>
+            <div class="row justify-content-center align-items-center g-2">
+                <div class="col" style="color: blue;">
+                    <h6>{{payslip.grossPay}}</h6>
+                    <h4>{{grossPay|currency:'INR'}}</h4>
+                </div>
+                <div class="col" style="color: red;">
+                    <h6>{{payslip.deductions}}</h6>
+                    <h4>{{deduction|currency:'INR'}}</h4>
+                </div>
+                <div class="col" style="color: green;">
+                    <h6>{{payslip.netPay}}</h6>
+                    <h4>{{netPay|currency:'INR'}}</h4>
+                </div>
+                <div class="col">
+                    <div class="mb-3">
+                        <h6>{{payslip.month}}</h6>
+                        <input type="month" class="form-control" name="" id="" (change)="table()"
+                            [(ngModel)]="thisMonth">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <br>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center g-2">
+            <div class="col">
+                <div class="table-responsive">
+                    <table class="table table-primary">
+                        <thead>
+                            <tr>
+                                <th scope="col">{{payslip.earnings}}</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="">
+                                <td>{{payslip.basicPay}}</td>
+                                <td>{{paySlipData.basicPay|currency:'INR'}}</td>
+                            </tr>
+                            <tr class="">
+                                <td>{{payslip.HRA}}</td>
+                                <td>{{paySlipData.hra|currency:'INR'}}</td>
+                            </tr>
+                            <tr class="">
+                                <td>{{payslip.LTA}}</td>
+                                <td>{{paySlipData.lta|currency:'INR'}}</td>
+                            </tr>
+                            <tr class="">
+                                <td>{{payslip.supplementaryAllowance}}</td>
+                                <td>{{paySlipData.sa|currency:'INR'}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col" style="margin-bottom: 82px;">
+                <div class="table-responsive">
+                    <table class="table table-primary">
+                        <thead>
+                            <tr>
+                                <th scope="col">{{payslip.deductions}}</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="">
+                                <td>{{payslip.insurance}}</td>
+                                <td>{{paySlipData.insurance|currency:'INR'}}</td>
+                            </tr>
+                            <tr class="">
+                                <td>{{payslip.PF}}</td>
+                                <td>{{paySlipData.pf|currency:'INR'}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>

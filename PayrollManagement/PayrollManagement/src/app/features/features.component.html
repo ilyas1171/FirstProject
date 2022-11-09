@@ -1,0 +1,22 @@
+<!-- Services -->
+<br>
+<div class="container-fluid">
+<h2>Service</h2>
+<br>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let data of featuresData">
+      <div class="card">
+        <img src="{{data.imageUrl}}" class="card-img-top" alt="img" />
+        <div class="card-body">
+          <pre class="card-title">{{data.cardTitle}}</pre>
+          <p class="card-text">
+            {{data.cardText}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+</div>

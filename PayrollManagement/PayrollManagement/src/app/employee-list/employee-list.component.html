@@ -1,0 +1,30 @@
+<div class="container-fluid">
+    <h3>{{profile.heading}}</h3>
+    <br>
+    <div class="table-responsive">
+        <table class="table table-primary">
+            <thead>
+                <tr>
+                    <th scope="col">{{profile.employeeId}}</th>
+                    <th scope="col">{{profile.name}}</th>
+                    <th scope="col">{{profile.email}}</th>
+                    <th scope="col">{{profile.dob}}</th>
+                    <th scope="col">{{profile.role}}</th>
+                    <th scope="col">{{profile.team}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="" *ngFor="let employee of employeeData">
+                    <td scope="row">{{employee.userId}}</td>
+                    <td>{{employee.userName}}</td>
+                    <td>{{employee.userEmail}}</td>
+                    <td>{{employee.userDob}}</td>
+                    <td>{{employee.userRole}}</td>
+                    <td>{{employee.team}}</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</div>

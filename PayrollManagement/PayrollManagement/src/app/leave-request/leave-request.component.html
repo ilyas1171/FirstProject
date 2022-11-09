@@ -1,0 +1,67 @@
+<h3>Leave Request Form</h3>
+  <section id="" class="portfolio section-bg ">
+    <div class="container boxM">
+        <div  class="form-group leaveRequestForm">
+            <div>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group row dateInput">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">From: </label>
+                            <div class="col-sm-6 ">
+                                <input type="date" name="fromDate" class="form-control" id="leavefrom"
+                                    [(ngModel)]="data.fromDate">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group row dateInput">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">To:</label>
+                            <div class="col-sm-6">
+                                <input type="date" name="toDate" class="form-control" id="leaveto"
+                                    [(ngModel)]="data.toDate">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+
+                        <div class="form-group">
+                            <label for="">{{leaveRequest.labelHeading}} </label>
+                            <select class="form-select" id="RequestType" name="requestType"
+                                [(ngModel)]="data.requestType">
+                                <option>{{leaveRequest.displayOnLabel}}</option>
+                                <option>{{leaveRequest.firstOption}}</option>
+                                <option>{{leaveRequest.secondOption}}</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="form-group ">
+                            <label for="">{{leaveRequest.leaveTitle}}</label>
+                            <select class="form-select" id="LeaveType" name="leaveType" [(ngModel)]="data.leaveType">
+                                <option>{{leaveRequest.displayOnLeaveLabel}}</option>
+                                <option>{{leaveRequest.leaveFirstOption}}</option>
+                                <option>{{leaveRequest.leaveSecondOption}}</option>
+                                <option>{{leaveRequest.leaveThirdOption}}</option>
+                                <option>{{leaveRequest.leaveFourthOption}}</option>
+                                <option>{{leaveRequest.leaveFifthOption}}</option>
+                                <option>{{leaveRequest.leaveSixthOption}}</option>
+                                <option>{{leaveRequest.leaveSevenOption}}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <label class="request">{{leaveRequest.discriptionTitle}}</label>
+            <textarea class="form-control" name="discription" id="Description" rows="5"
+                [(ngModel)]="data.discription"></textarea>
+            <div class="request_button text-center">
+                <button type="button" class="btn btn-success" (click)="request()">{{leaveRequest.buttonName}}</button>
+            </div>
+        </div>
+    </div>
+</section>
+<br>

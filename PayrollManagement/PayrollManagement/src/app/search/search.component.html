@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="container-fluid">
+        <nav class="navbar bg-light">
+            <div class="container-fluid">
+              <form class="d-flex" [formGroup]="search" (ngSubmit)="find()" >
+                <input class="form-control me-2" type="search" placeholder="Search by Id" aria-label="Search" formControlName="userId" >
+                <button class="btn btn-outline-success" type="submit">{{profile.profileTitle}}</button>
+              </form>
+            </div>
+          </nav>
+    </div>
+</div>
+<br>
+<div class="container" *ngIf="check==true">
+  <div class="card mb-3 box">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <div class="container">
+          <img src="{{profile.profileImage}}"
+            class="img-fluid rounded-start" alt="...">
+        </div>
+      </div>
+      <div class="col">
+        <div class="container">
+          <ul class="list-group list-group-flush">
+            <br>
+            <li class="list-group-item">
+              <pre>{{profile.employeeId}}   :  {{searchData.userId}}</pre>
+            </li>
+            <br>
+            <li class="list-group-item">
+              <pre>{{profile.name}}             :  {{searchData.userName}}</pre>
+            </li>
+            <br>
+            <li class="list-group-item">
+              <pre>{{profile.dob}}              :  {{searchData.userDob }}</pre>
+            </li>
+            <br>
+            <li class="list-group-item">
+              <pre>{{profile.email}}           :  {{searchData.userEmail}}</pre>
+            </li>
+            <br>
+            <li class="list-group-item">
+              <pre>{{profile.role}}              :  {{searchData.userRole}}</pre>
+            </li>
+            <li class="list-group-item">
+                <pre>{{profile.team}}           :  {{searchData.team}}</pre>
+              </li>
+            <br>
+            <div class="mx-auto">
+                <button type="button" style="margin-left: 510px;" class="btn btn-danger" (click)="delete()">Delete</button>
+            </div>
+            <li class="list-group-item"></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
