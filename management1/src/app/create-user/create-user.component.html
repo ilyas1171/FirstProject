@@ -1,0 +1,19 @@
+
+<div class="col-md-6 offset-md-3">
+    <h3>Create User</h3>
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label>User Name</label>
+            <input type="text" class = "form-control" id ="userName"
+            [(ngModel)]="users.userName" name="userName">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="text" class = "form-control" id ="userPassword"
+            [(ngModel)]="users.userPassword" name="userPassword">
+        </div>
+        <div class="col-md-1 offset-md-5">
+            <button class="btn btn-success" type = "submit">Submit</button>
+        </div>
+        </form>
+</div>
